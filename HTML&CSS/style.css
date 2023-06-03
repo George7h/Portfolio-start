@@ -227,9 +227,10 @@
     width: 120px;
   }
 
-  .btn1{
+  .btn1 {
     font-size: 12px;
   }
+
   .btns {
     display: flex;
     flex-direction: row;
@@ -293,7 +294,7 @@
   }
 
   .wrap {
-    display : flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10;
@@ -315,7 +316,7 @@
     padding-top: 12px;
     padding-bottom: 12px;
   }
-  
+
   .containing {
     margin-right: 11%;
   }
@@ -325,6 +326,7 @@
     text-align: center;
     list-style-type: none;
   }
+  
   .skils {
     padding: 10;
   }

@@ -73,7 +73,8 @@
   }
 
   .intro {
-    background-image:url(header-shapes\ mobile@2x.svg),
+    background-image: 
+    url(header-shapes\ mobile@2x.svg),
       url(../HTML&CSS/header-background-mobile.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -112,9 +113,10 @@
 }
 
 /* Minimum desktop screen size */
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .intro {
-    background-image: url(../HTML&CSS/Header\ bg.svg),
+    background-image: 
+    url(../HTML&CSS/Header\ bg.svg),
       url(../HTML&CSS/header-background-mobile.svg);
     background-size: cover;
     background-repeat: no-repeat;

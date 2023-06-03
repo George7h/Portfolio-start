@@ -36,7 +36,7 @@
   }
 
   .paragraph {
-    font-weight:900;
+    font-weight: 900;
     font-size: 44px;
     color: #091e42;
   }
@@ -62,7 +62,6 @@
     font-weight: bold;
   }
 
-  
   .content1 {
     display: flex;
     flex-direction: column;
@@ -107,7 +106,6 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-   
     gap: 16px;
     list-style-type: none;
     margin-top: 5px;
@@ -118,7 +116,6 @@
   }
 
 }
-
 /* Minimum desktop screen size */
 @media (min-width: 768px) {
   .intro {

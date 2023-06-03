@@ -126,7 +126,7 @@
     align-items: center;
     justify-content: space-between;
   }
-  
+
   .work{
     padding-bottom: 114px;
   }
@@ -291,14 +291,14 @@
     justify-content: space-between;
   }
 
-  .wrap{
+  .wrap {
     display: flex;
     justify-content:space-between;
     align-items: center;
     gap: 10;
   }
 
-  .wrap1{
+  .wrap1 {
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -307,21 +307,24 @@
     padding-right: 200px;
   }
 
-  .wrap2{
+  .wrap2 {
     display: flex;
     justify-content:space-between;
     align-items: center;
     padding-top: 12px;
     padding-bottom: 12px;
   }
-  .containing{margin-right: 11%;}
+  .containing {
+    margin-right: 11%;
+  }
 
-  .language{
+  .language {
     font-size: 22px;
     text-align: center;
     list-style-type: none;
   }
-  .skils{padding:10
+  .skils {
+    padding: 10;
   }
 
   .langlist {

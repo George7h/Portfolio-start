@@ -122,9 +122,12 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 24px;
-    gap: 10px;
+    gap: 88px;
     align-items: center;
     justify-content: space-between;
+  }
+  .work{
+    padding-bottom: 114px;
   }
 
   .post {
@@ -196,14 +199,16 @@
     font-weight: 700;
   }
 
-  .role {
+  .role {margin-left: 10px;
     font-size: 13px;
+    font-weight: 600;
     color: #7a869a;
   }
 
   .year {
     font-size: 13px;
     color: #7a869a;
+    font-weight: 600;
   }
 
   .see-project {
@@ -219,12 +224,14 @@
     padding: 12px;
     width: 120px;
   }
-
+  .btn1{
+    font-size: 12px;
+  }
   .btns {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 16px;
+    gap: 8px;
     list-style-type: none;
     margin-top: 5px;
     color: #6070ff;
@@ -265,6 +272,8 @@
   .about {
     font-size: 40px;
     font-weight: 700;
+    color: #172B4D;
+
   }
 
   .skill-list {
@@ -274,13 +283,44 @@
     flex-direction: column;
   }
 
-  .languages {
+  .languages1 {
     display: flex;
     flex-direction: column;
     list-style-type: none;
     justify-content: space-between;
   }
 
+  .wrap{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 10;
+
+  }
+  .wrap1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #F7F7F9;
+    margin: 6px;
+    padding-right: 200px;
+  }
+  .wrap2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+  }
+  .containing{margin-right: 11%;}
+  .language{
+    font-size: 22px;
+    text-align: center;
+    list-style-type: none;
+  }
+  .skils{padding:10
+  }
   .langlist {
     background-color: #f7f7f9;
     margin: 5px;
@@ -289,6 +329,8 @@
 
   .content3 {
     margin-top: 114px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 
   .Frameworks {

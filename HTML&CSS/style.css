@@ -114,9 +114,8 @@
   .icon {
     padding: 5px;
   }
-
 }
-/* Minimum desktop screen size */
+ /* Minimum desktop screen size */
 @media (min-width: 768px) {
   .intro {
     background-image: url(../HTML&CSS/Header\ bg.svg);

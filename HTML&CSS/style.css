@@ -126,6 +126,7 @@
     align-items: center;
     justify-content: space-between;
   }
+  
   .work{
     padding-bottom: 114px;
   }
@@ -295,25 +296,26 @@
     justify-content:space-between;
     align-items: center;
     gap: 10;
-
   }
+
   .wrap1{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    background-color: #F7F7F9;
+    background-color: #f7f7f9;
     margin: 6px;
     padding-right: 200px;
   }
+
   .wrap2{
     display: flex;
     justify-content:space-between;
     align-items: center;
     padding-top: 12px;
     padding-bottom: 12px;
-
   }
   .containing{margin-right: 11%;}
+
   .language{
     font-size: 22px;
     text-align: center;
@@ -321,6 +323,7 @@
   }
   .skils{padding:10
   }
+
   .langlist {
     background-color: #f7f7f9;
     margin: 5px;

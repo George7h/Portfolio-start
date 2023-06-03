@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-/*Minimum desktop screen size*/
+/* Minimum desktop screen size */
 @media (min-width: 375px) {
   * {
     padding: 0;
@@ -42,7 +42,6 @@
   }
 
   .paragraph2 {
-    font-family: "Poppins";
     font-size: 16px;
     margin-left: 15px;
     margin-top: -5px;
@@ -61,20 +60,20 @@
     font-size: 15px;
     font-weight: bold;
   }
+
   .content {
     margin-top: 13px;
     font-size: 18px;
   }
 
   .Logo {
-    font-family: "Poppins";
     font-size: 18px;
     font-weight: bold;
     color: #6070ff;
   }
 
   .intro {
-    background-image: url(header-shapes\ mobile@2x.svg),
+    background-image:url(header-shapes\ mobile@2x.svg),
       url(../HTML&CSS/header-background-mobile.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -106,13 +105,14 @@
     gap: 16px;
     list-style-type: none;
   }
+
   .icon {
     padding: 5px;
   }
 }
 
-/*Minimum desktop screen size*/
-@media (min-width: 768px) {
+/* Minimum desktop screen size */
+@media (min-width:768px) {
   .intro {
     background-image: url(../HTML&CSS/Header\ bg.svg),
       url(../HTML&CSS/header-background-mobile.svg);
@@ -126,6 +126,7 @@
     align-items: center;
     flex-wrap: wrap;
   }
+
   .paragraph {
     font-size: 40px;
     font-weight: 700;
@@ -134,9 +135,7 @@
   }
 
   .paragraph2 {
-    font-family: "Poppins";
     font-size: 20px;
-    margin-top: 0px;
     font-weight: 400;
   }
 
@@ -148,7 +147,6 @@
   }
 
   .Logo {
-    font-family: "Poppins";
     font-size: 18px;
     font-weight: bold;
     color: #6070ff;
@@ -172,6 +170,7 @@
     margin-left: 17%;
     margin-right: 17%;
   }
+
   .icon {
     padding-top: 10px;
   }
@@ -184,6 +183,7 @@
     align-items: center;
     background-color: white;
   }
+
   .menu-items {
     display: none;
     position: fixed;
@@ -195,7 +195,6 @@
   }
 
   .nav1 {
-    display: flex;
     list-style: none;
     font-size: 20px;
     display: inline-flex;
@@ -227,5 +226,4 @@ a:hover {
 .linav:hover {
   background-color: #6070ff;
   border-radius: 10%;
-  border-color: #000000;
 }

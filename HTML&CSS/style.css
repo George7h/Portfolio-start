@@ -127,7 +127,7 @@
     justify-content: space-between;
   }
 
-  .work{
+  .work {
     padding-bottom: 114px;
   }
 
@@ -200,7 +200,8 @@
     font-weight: 700;
   }
 
-  .role {margin-left: 10px;
+  .role {
+    margin-left: 10px;
     font-size: 13px;
     font-weight: 600;
     color: #7a869a;
@@ -225,6 +226,7 @@
     padding: 12px;
     width: 120px;
   }
+
   .btn1{
     font-size: 12px;
   }
@@ -273,8 +275,7 @@
   .about {
     font-size: 40px;
     font-weight: 700;
-    color: #172B4D;
-
+    color: #172b4d;
   }
 
   .skill-list {
@@ -292,15 +293,15 @@
   }
 
   .wrap {
-    display: flex;
-    justify-content:space-between;
+    display : flex;
+    justify-content: space-between;
     align-items: center;
     gap: 10;
   }
 
   .wrap1 {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     background-color: #f7f7f9;
     margin: 6px;
@@ -309,11 +310,12 @@
 
   .wrap2 {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     padding-top: 12px;
     padding-bottom: 12px;
   }
+  
   .containing {
     margin-right: 11%;
   }

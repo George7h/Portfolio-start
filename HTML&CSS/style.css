@@ -114,7 +114,7 @@
 /* Minimum desktop screen size */
 @media (min-width: 768px) {
   .intro {
-    background-image:url(../HTML&CSS/Header\ bg.svg);
+    background-image: url(../HTML&CSS/Header\ bg.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: white;

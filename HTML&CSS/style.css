@@ -118,9 +118,6 @@
   /* Start of new formating */
 
   /* Work Section */
-
-  .Work {
-  }
   .cards {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -137,7 +134,7 @@
     border-radius: 16px;
     padding: 16px;
     gap: 12px;
-    background-color: #ffffff;
+    background-color: #ffff;
     grid-row: 2;
   }
   .post2 {
@@ -148,7 +145,7 @@
     border-radius: 16px;
     padding: 16px;
     gap: 12px;
-    background-color: #ffffff;
+    background-color: #ffff;
     grid-row: 3;
   }
   .post3 {
@@ -159,10 +156,9 @@
     border-radius: 16px;
     padding: 16px;
     gap: 12px;
-    background-color: #ffffff;
+    background-color: #ffff;
     grid-row: 4;
   }
-
   .post4 {
     display: flex;
     flex-direction: column;
@@ -186,14 +182,12 @@
     gap: 20px;
     margin-top: 5px;
   }
-
   .client {
     color: #091e42;
     list-style-type: none;
     font-size: 13px;
     font-weight: 700;
   }
-
   .role {
     font-size: 13px;
     color: #7a869a;
@@ -202,7 +196,6 @@
     font-size: 13px;
     color: #7a869a;
   }
-
   .see-project {
     color: #396df2;
     font-weight: 500;
@@ -216,7 +209,6 @@
     padding: 12px;
     width: 120px;
   }
-
   .btns {
     display: flex;
     flex-direction: row;
@@ -226,7 +218,6 @@
     margin-top: 5px;
     color: #6070ff;
   }
-
   .btn {
     background-color: #ebebff;
     font-weight: 500;

@@ -229,9 +229,11 @@
 
   .btn1 {
     font-size: 12px;
+    
   }
 
   .btns {
+    
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -245,8 +247,9 @@
     background-color: #ebebff;
     font-weight: 500;
     font-size: 12px;
-    padding: 4px 12px;
+    padding: 1rem;
     border-radius: 8px;
+    float: left;
   }
 
   /* About me section */

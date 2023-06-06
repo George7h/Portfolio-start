@@ -355,6 +355,8 @@
     gap: 88px;
     background: #6070FF;
     border-radius: 5rem 0 0 0;
+    background-image: url(../HTML&CSS/contact\ form\ shapes-mobile.svg);
+    background-size: cover;
 
     .contactDetail{
       display: flex;
@@ -368,6 +370,12 @@
       .detail{
         color:white;
         text-align: center;
+      }
+      .form{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
       }
 
     }

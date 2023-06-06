@@ -359,7 +359,7 @@
     background-position: right;
     background-repeat: no-repeat;
 
-    .contactDetail{
+    .contactDetail {
       margin-top: 20%;
       display: flex;
       flex-direction: column;
@@ -369,17 +369,16 @@
       .head {
         color: white;
         font-size: 40px;
-        line-height: 130%
+        line-height: 130%;
       }
 
       .detail {
-        color:white;
+        color: white;
         text-align: center;
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
         line-height: 28px;
-        text-align: center;
       }
     }
 
@@ -436,10 +435,10 @@
       }
 
       .submit_button:hover {
-      background: #6070ff;
-      box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
-      border-radius: 8px;
-      color: #ffff;
+        background: #6070ff;
+        box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+        border-radius: 8px;
+        color: #ffff;
       }
 
       .submit_button:active {

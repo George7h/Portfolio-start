@@ -181,13 +181,13 @@
                 I’d love to help with it!
             </p>
         </div>
-        <form class="form">
-            <fieldset class="fields">
-                <input type="text" class="input" name="name" placeholder="Name and Surname" maxlength="30" required>
-                <input type="email" class="input" placeholder="Email" required >
-            </fieldset>
-            <textarea maxlength="500" rows="4" class="textArea" placeholder="Write your message here.."></textarea>
-            <button type="submit" class="submit">Get in touch</button>
+        <form class="form" action="https://formspree.io/f/xnqykblo" method="POST">
+                    <fieldset class="fields">
+                        <input type="text" class="input" name="name" placeholder="Name and Surname" maxlength="30" required>
+                        <input type="email" class="input" name="email" placeholder="Email" required>
+                    </fieldset>
+                    <textarea name="message" maxlength="500" rows="6" class="textArea" placeholder="Write your message here.."required></textarea>
+                    <button type="submit" class="submit_button">Get in touch</button>
         </form>
     </section>
 </body>

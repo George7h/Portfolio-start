@@ -347,18 +347,17 @@
     margin: 5px;
   }
 
-  #contactForm{
+  #contactForm {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 114px 24px;
     gap: 52px;
-    background: #6070FF;
+    background: #6070ff;
     border-radius: 5rem 0 0 0;
     background-image: url(contact\ form\ shapes-mobile.svg);
     background-position: right;
     background-repeat: no-repeat;
-    
 
     .contactDetail{
       margin-top: 20%;
@@ -367,15 +366,15 @@
       align-items: center;
       gap: 12px;
 
-      .head{
+      .head {
         color: white;
         font-size: 40px;
         line-height: 130%
       }
-      .detail{
+
+      .detail {
         color:white;
         text-align: center;
-        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
@@ -384,27 +383,26 @@
       }
     }
 
-    .form{
+    .form {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       gap: 12px;
       width: 100%;
 
-      .fields{
+      .fields {
         display: flex;
         flex-direction: column;
         gap: 12px;
         border: none;
         width: 100%;
 
-        .input{
+        .input {
           padding: 12px;
           background: white;
-          border: 1px solid #CFD8DC;
+          border: 1px solid #cfd8dc;
           border-radius: 8px;
-          color: #172B4D;
-          font-family: 'Poppins';
+          color: #172b4d;
           font-style: normal;
           font-weight: 400;
           font-size: 17px;
@@ -412,46 +410,44 @@
         }
       }
 
-      .textArea{
-        background: #FFFFFF;
-        border: 1px solid #CFD8DC;
+      .textArea {
+        background: #ffff;
+        border: 1px solid #cfd8dc;
         border-radius: 8px;
         padding: 12px;
         width: 100%;
-        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 15px;
         line-height: 24px;
-        color: #B3BAC5;
+        color: #b3bac5;
       }
 
-      .submit_button{
+      .submit_button {
         padding: 12px 16px;
-        background: #FFFFFF;
+        background: #ffff;
         border-radius: 8px;
-        border: 1px solid #CFD8DC;
-        color: #6070FF;
-        font-family: 'Poppins';
+        border: 1px solid #cfd8dc;
+        color: #6070ff;
         font-style: normal;
         font-weight: bold;
         font-size: 17px;
         line-height: 24px;
       }
 
-      .submit_button:hover{
-      background: #6070FF;
+      .submit_button:hover {
+      background: #6070ff;
       box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
       border-radius: 8px;
       color: #ffff;
       }
 
-      .submit_button:active{
+      .submit_button:active {
         background: #2230d2;
         border-radius: 8px;
       }
 
-      .submit_button:disabled{
+      .submit_button:disabled {
         color: #5e6c84;
         border: 1px solid #c1c7d0;
         border-radius: 8px;

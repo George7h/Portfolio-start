@@ -360,6 +360,14 @@
     background-position: right;
     background-repeat: no-repeat;
 
+    .line{
+      display: flex;
+      width: 135px;
+      color: black;
+      height: 5px;
+      border-radius: 10px;
+      background-color: #0D151E;
+    }
     .contactDetail {
       margin-top: 20%;
       display: flex;

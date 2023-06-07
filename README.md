@@ -33,19 +33,17 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>HTML</summary>
   <ul>
-    <li><a href="Website.html">Website.html</a></li>
+    <li><a href="./HTML&CSS\Website.html">Website.html</a></li>
   </ul>
 </details>
 
 <details>
   <summary>CSS</summary>
   <ul>
-    <li><a href="style.css">Style.css</a></li>
+    <li><a href="./HTML&CSS\style.css">Style.css</a></li>
   </ul>
 </details>
 

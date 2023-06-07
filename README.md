@@ -29,7 +29,27 @@
 
 **Portfolio** is a webpage containing my personal portfolio. This website contains a web links to all the projects I have created. It also contains all my contact details.
 
-## 🛠 Built With <a name="built-with">HTML & CSS</a>
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>HTML</summary>
+  <ul>
+    <li><a href="Website.html">Website.html</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>CSS</summary>
+  <ul>
+    <li><a href="style.css">Style.css</a></li>
+  </ul>
+</details>
+
+<details>
 
 <!-- Features -->
 
@@ -37,8 +57,18 @@
 
 - **The toolbar**
 - **The headline section**
+- **Work cards section**
+- **About myself section**
+- **Contact form**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+Comming soon.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -84,6 +114,11 @@ Open in browser to view site.
 - Twitter: [@GJ2H](https://twitter.com/GJ2H)
 - LinkedIn: [George Hamman](https://linkedin.com/in/george-hamman-95b98224b)
 
+👤 **Shah Zaman**
+
+- GitHub: [@sheezu900](https://github.com/sheezu900)
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,14 +137,11 @@ Open in browser to view site.
 
 Contributions, issues, and feature requests are welcome!
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
 
 If you like this project please give it a ⭐️
 
@@ -119,9 +151,7 @@ If you like this project please give it a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I will update with the codereviewer.
-
-I would like to thank my codereviewer for reviewing my code in this project development.
+I would like to thank my codereviewers for reviewing my code in this project development.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,6 +164,5 @@ I would like to thank my codereviewer for reviewing my code in this project deve
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

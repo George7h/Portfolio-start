@@ -348,10 +348,11 @@
   }
 
   #contactForm {
+    margin-top: -60px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 114px 24px;
+    padding: 24px;
     gap: 52px;
     background: #6070ff;
     border-radius: 5rem 0 0 0;

@@ -653,21 +653,21 @@
       .client {
         color: #091e42;
         list-style-type: none;
-        font-size: 13px;
-        font-weight: 700;
+        font-size: 18px;
+        font-weight: 500;
       }
 
       .role {
         margin-left: 10px;
-        font-size: 13px;
-        font-weight: 600;
+        font-size: 18px;
+        font-weight: 400;
         color: #7a869a;
       }
 
       .year {
-        font-size: 13px;
+        font-size: 18px;
         color: #7a869a;
-        font-weight: 600;
+        font-weight: 400;
       }
     }
 
@@ -689,6 +689,14 @@
       border-radius: 8px;
     }
 
+    .multi-post-description {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #344563;
+    }
+
     .see-project {
       color: #396df2;
       font-weight: 500;
@@ -705,7 +713,7 @@
 
     .see-project:hover {
       background: #4053fc;
-      box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+      box-shadow: 0.5px 8px 16px rgba(64, 83, 252, 0.24);
       border-radius: 8px;
       color: #fff;
     }
@@ -831,7 +839,7 @@
 
     .resume:hover {
       background: #6070ff;
-      box-shadow: 8px 16px rgba(64, 83, 252, 0.24);
+      box-shadow: 0.5px 8px 16px rgba(64, 83, 252, 0.24);
       border-radius: 8px;
       color: #ffff;
     }

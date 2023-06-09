@@ -365,15 +365,6 @@
     background-position: right;
     background-repeat: no-repeat;
 
-    .line {
-      display: flex;
-      width: 135px;
-      color: black;
-      height: 5px;
-      border-radius: 10px;
-      background-color: #0d151e;
-    }
-
     .contactDetail {
       margin-top: 20%;
       display: flex;
@@ -545,7 +536,6 @@
     padding: 10px;
     padding-bottom: 100px;
     border-radius: 0 0 0 45px;
-    height: 916px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -713,6 +703,13 @@
       width: 120px;
     }
 
+    .see-project:hover {
+      background: #4053fc;
+      box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+      border-radius: 8px;
+      color: #fff;
+    }
+
     .post2 {
       display: flex;
       flex-direction: column;
@@ -762,11 +759,14 @@
     padding: 10px;
     padding-bottom: 100px;
     border-radius: 0 45px 0 0;
+    display: flex;
+    flex-direction: inherit;
 
     .content3 {
-      margin-top: 114px;
+      margin-top: 80px;
       margin-left: 24px;
       margin-right: 24px;
+      align-items: baseline;
     }
 
     .about {
@@ -790,7 +790,7 @@
     }
 
     .containing {
-      margin-right: 11%;
+      margin-right: 25%;
     }
 
     .skill-list {
@@ -803,17 +803,18 @@
     .wrap {
       display: flex;
       justify-content: space-between;
-      align-items: center;
       gap: 10;
     }
 
     .wrap1 {
       display: flex;
       justify-content: space-between;
-      align-items: center;
       background-color: #f7f7f9;
       margin: 6px;
       padding-right: 200px;
+      width: 112px;
+      height: 122px;
+      flex-direction: column;
     }
 
     .wrap2 {
@@ -827,31 +828,16 @@
     .Frameworks {
       margin: 5px;
     }
+
+    .resume:hover {
+      background: #6070ff;
+      box-shadow: 8px 16px rgba(64, 83, 252, 0.24);
+      border-radius: 8px;
+      color: #ffff;
+    }
   }
 
   /* Delete after */
-  .language {
-    font-size: 22px;
-    text-align: center;
-    list-style-type: none;
-  }
-
-  .languages1 {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    justify-content: space-between;
-  }
-
-  .skils {
-    padding: 10;
-  }
-
-  .langlist {
-    background-color: #f7f7f9;
-    margin: 5px;
-    border-radius: 8px;
-  }
 
   /* Delete before */
 
@@ -863,20 +849,12 @@
     align-items: center;
     padding: 24px;
     gap: 52px;
+    padding-bottom: 10%;
     background: #6070ff;
     border-radius: 5rem 0 0 0;
-    background-image: url(contact\ form\ shapes-mobile.svg);
+    background-image: url(./desktopform/contact\ form\ background\ shapes@2x.svg);
     background-position: right;
     background-repeat: no-repeat;
-
-    .line {
-      display: flex;
-      width: 135px;
-      color: black;
-      height: 5px;
-      border-radius: 10px;
-      background-color: #0d151e;
-    }
 
     .contactDetail {
       margin-top: 20%;
@@ -898,20 +876,21 @@
         font-weight: 400;
         font-size: 20px;
         line-height: 28px;
+        width: 569px;
       }
     }
 
     .form {
       display: flex;
       flex-direction: column;
-      align-items: flex-start;
-      gap: 12px;
-      width: 100%;
+      align-items: center;
+      gap: 27px;
+      width: 447px;
 
       .fields {
         display: flex;
         flex-direction: column;
-        gap: 12px;
+        gap: 27px;
         border: none;
         width: 100%;
 

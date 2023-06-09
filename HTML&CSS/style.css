@@ -13,6 +13,91 @@
     background: #f7f7f9;
   }
 
+  .Projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 114px 24px;
+    gap: 88px;
+
+    .project {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 16px;
+      gap: 12px;
+      background: white;
+      border: 1px solid #dfe1e6;
+      border-radius: 16px;
+
+      .img {
+        width: 100%;
+        height: auto;
+      }
+
+      .project_detail {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+        gap: 12px;
+      }
+
+      .project_heading {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 44px;
+        color: #172b4d;
+      }
+
+      .tech {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        gap: 12px;
+      }
+
+      .project_dis {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        color: #344563;
+      }
+
+      .project_lang {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        gap: 8px;
+
+        .lang {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 4px 12px;
+          background: #ebebff;
+          color: #6070ff;
+          border-radius: 8px;
+        }
+      }
+
+      .see_project {
+        border: 1px solid #6070ff;
+        border-radius: 8px;
+        padding: 12px;
+        background-color: white;
+        color: #6070ff;
+        gap: 10px;
+
+      }
+    }
+  }
+
   .navbar {
     display: flex;
     padding: 14px;
@@ -257,6 +342,7 @@
 
   /* About me section */
   .about-myself {
+    display: none;
     background-size: cover;
     background-color: #ffff;
     background-repeat: no-repeat;
@@ -468,6 +554,28 @@
     background: #f7f7f9;
   }
 
+  .Projects {
+    .project {
+      flex-direction: row;
+      width: 80%;
+      flex: 1;
+
+      .img {
+        width: 100%;
+        height: auto;
+      }
+
+      .project_detail {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+        height: 445px;
+        gap: 12px;
+      }
+    }
+  }
+
   header {
     .navbar {
       display: flex;
@@ -587,7 +695,9 @@
   /* Work Section */
   .work {
     padding-bottom: 114px;
-    display: grid;
+
+    /* display: grid; */
+    gap: 2rem;
     justify-content: center;
 
     .cards {
@@ -611,7 +721,6 @@
       gap: 48px;
       background-color: #ffff;
       grid-row: 2;
-      align-items: center;
       justify-content: center;
 
       .imagepost {
@@ -631,6 +740,7 @@
         display: flex;
         flex-direction: column;
         gap: 15px;
+        padding-top: 20px;
       }
 
       .post-title {
@@ -644,7 +754,7 @@
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        gap: 20px;
+        gap: 25px;
         margin-top: 5px;
         font-size: 18px;
         line-height: 24px;
@@ -695,6 +805,8 @@
       font-size: 16px;
       line-height: 24px;
       color: #344563;
+      padding-top: 15px;
+      padding-bottom: 10px;
     }
 
     .see-project {
@@ -709,14 +821,10 @@
       box-sizing: border-box;
       padding: 12px;
       width: 120px;
+      margin-top: 15px;
     }
 
-    .see-project:hover {
-      background: #4053fc;
-      box-shadow: 0.5px 8px 16px rgba(64, 83, 252, 0.24);
-      border-radius: 8px;
-      color: #fff;
-    }
+    
 
     .post2 {
       display: flex;
@@ -767,7 +875,7 @@
     padding: 10px;
     padding-bottom: 100px;
     border-radius: 0 45px 0 0;
-    display: flex;
+    display: none;
     flex-direction: inherit;
 
     .content3 {
@@ -959,4 +1067,11 @@
       }
     }
   }
+}
+
+.see_project:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #ffff;
 }

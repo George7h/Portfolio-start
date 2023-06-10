@@ -105,7 +105,7 @@ button:disabled {
         .spanning {
           background: #ebebff;
           border-radius: 8px;
-          color:#6070ff;
+          color: #6070ff;
           padding: 4px 12px;
         }
       }
@@ -533,7 +533,7 @@ button:disabled {
           background: #ebebff;
           border-radius: 8px;
           padding: 4px 12px;
-          color:#6070ff;
+          color: #6070ff;
         }
       }
     }

@@ -210,7 +210,7 @@ button:disabled {
     align-items: flex-start;
     gap: 16px;
     list-style-type: none;
-    margin-top: 5px;
+    margin-top: 15px;
   }
 
   .icon {
@@ -297,7 +297,7 @@ button:disabled {
     font-size: 17px;
     text-align: center;
     background-color: #ffff;
-    border-radius: 16px;
+    border-radius: 8px;
     border: 1px solid #dfe1e6;
     border-color: #396df2;
     box-sizing: border-box;
@@ -700,7 +700,7 @@ button:disabled {
       font-size: 17px;
       text-align: center;
       background-color: #ffff;
-      border-radius: 16px;
+      border-radius: 8px;
       border: 1px solid #dfe1e6;
       border-color: #396df2;
       box-sizing: border-box;

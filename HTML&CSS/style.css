@@ -492,6 +492,10 @@ button:disabled {
         padding-right: 1rem;
       }
 
+      .project-img:hover {
+        transform: scale(0.9);
+      }
+
       .project_detail {
         display: grid;
         height: 465px;

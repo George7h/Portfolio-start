@@ -468,6 +468,11 @@ button:disabled {
     font-family: "Poppins", sans-serif;
     background: #f7f7f9;
   }/* Work Section */
+  
+  .Logo:hover {
+    transform: rotate(3.142rad);
+  }
+  
   .projects {
     justify-items: center;
 

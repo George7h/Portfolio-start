@@ -468,6 +468,7 @@ button:disabled {
     font-family: "Poppins", sans-serif;
     background: #f7f7f9;
   }/* Work Section */
+
   .projects {
     justify-items: center;
 
@@ -490,6 +491,10 @@ button:disabled {
         height: 100%;
         width: auto;
         padding-right: 1rem;
+      }
+
+      .project-img:hover {
+        transform: scale(0.9);
       }
 
       .project_detail {
@@ -558,6 +563,10 @@ button:disabled {
       font-size: 18px;
       line-height: 20px;
       padding-left: 50px;
+    }
+
+    .Logo:hover {
+      transform: rotate(3.142rad);
     }
 
     .menu {
